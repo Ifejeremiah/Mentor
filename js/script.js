@@ -6,7 +6,7 @@ $(function(){
     autoplayTimeout: 4000,
     autoplayHoverPause: true,
     768 : {
-      items : 2.5,
+      items : 2.2,
       // option2 : value,
   }
   });
