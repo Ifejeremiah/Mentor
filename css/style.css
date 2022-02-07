@@ -1,0 +1,457 @@
+/* Master Styles */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: none;
+  color: inherit;
+  list-style: none;
+  text-decoration: none !important;
+}
+
+:root {
+  --primary-color: rgb(20, 117, 197);
+  --secondary-color: rgb(3, 136, 3);
+  --ash-02-color: rgb(163, 161, 161);
+}
+
+body {
+  line-height: 1.5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Utilites */
+.main-container {
+  position: relative;
+}
+
+.con-card {
+  border-radius: .5rem;
+  width: 100%;
+}
+
+.primary-btn {
+  font-weight: 500;
+  font-size: .8rem;
+  color: var(--primary-color);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.shadow {
+  box-shadow: 0 .3rem .8rem rgba(0, 0, 0, 0.084)!important;
+}
+
+.rounded {
+  border-radius: .8rem!important;
+}
+
+.nav-tabs {
+  border: 0;
+}
+
+.tab-content {
+  background: #fff;
+}
+
+.nav-tabs .nav-link {
+  background: var(--primary-color);
+  color: #fff;
+  font-size: .8rem;
+  margin: 0 8px;
+  width: 140px;
+  border-radius: .8rem .8rem 0 0 !important;
+}
+
+.nav-tabs .nav-link.active {
+  border-color: transparent;
+  font-weight: 500;
+  box-shadow: 0 .1rem 1.2rem rgba(0, 0, 0, 0.084)!important;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+  margin-top: unset;
+  margin-bottom: 12px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: var(--primary-color);
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 7px;
+  height: 7px;
+  margin: 0px 4px;
+}
+
+
+/* Main Nav Bar */
+.con-main-navbar {
+  border: 1px solid rgb(233, 233, 233);
+  background: #fff;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  z-index: 1000;
+}
+
+.con-main-navbar .profile {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  color: var(--primary-color);
+  background: rgb(231, 230, 230);
+}
+
+.con-main-navbar input {
+  background: rgb(241, 240, 240);
+  font-size: .8rem;
+  width: 86%;
+}
+
+.con-main-navbar .notify {
+  border-radius: 50%;
+  height: 34px;
+  width: 34px;
+  color: var(--primary-color);
+  background: rgb(231, 230, 230);
+}
+
+
+/* Main Footer Bar */
+.con-main-footerbar {
+  border: 1px solid rgb(224, 223, 223);
+  background: #fff;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+}
+
+.con-main-footerbar .icon {
+  color: #888;
+  font-size: .84rem;
+}
+
+.con-main-footerbar .icon.active  {
+  color: var(--primary-color);
+}
+
+.con-main-footerbar .icon i {
+  font-size: 1.2rem;
+}
+
+
+/* ------- CONTENT ------- */
+.con-content {
+  max-width: 100%;
+}
+
+
+/* Sidebar */
+.con-content .row .side {
+  height: 100vh;
+  width: 100px;
+}
+
+
+.con-sidebar {
+  border-radius: 1.4rem;
+  width: 100%;
+  height: 96%;
+} 
+
+.con-sidebar .icon {
+  width: 36px;
+  height: 36px;
+  border-radius: .6rem;
+  color: rgb(128, 126, 126);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.con-sidebar .icon.active {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+
+/* Context */
+
+/* Navbar */
+.con-context .row-first {
+  width: 90%;
+  background: #fff;
+  z-index: 10000;
+}
+
+.con-context .con-navbar {
+  height: 40px;
+  background: #fff;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.con-navbar .left-side .pulse {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  border: 10px solid rgb(232, 232, 240);
+  background: var(--primary-color);
+}
+
+.con-navbar .right-side input {
+  background: rgb(241, 240, 240);
+  font-size: .8rem;
+  width: 260px;
+}
+
+.con-navbar .right-side .notify {
+  border-radius: 50%;
+  height: 34px;
+  width: 34px;
+  color: var(--primary-color);
+  background: rgb(231, 230, 230);
+}
+
+.con-navbar .right-side .user .user-name {
+  font-size: .7rem;
+  font-weight: 500;
+}
+
+.con-navbar .right-side .user .user-dp {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  color: var(--primary-color);
+  background: rgb(231, 230, 230);
+}
+
+.con-navbar .right-side .logout {
+  color: rgb(8, 171, 212);
+  font-size: .8rem;
+}
+
+
+/* Section A */
+
+/* First Column */
+.section-a .first-col .header {
+  font-weight: 500;
+}
+
+.section-a .first-col .con-cards .card {
+  font-size: .8rem;
+}
+
+.section-a .first-col .con-cards .card .user .user-dp {
+  height: 40px;
+  width: 40px;
+  background: rgb(235, 234, 234);
+  border-radius: 50%;
+}
+
+.section-a .first-col .con-cards .card p {
+  margin: 0;
+}
+
+.section-a .first-col .con-cards .card .btn {
+  font-size: .8rem;
+  border-radius: .5rem;
+  padding: 4px 16px;
+}
+
+.section-a .first-col .con-cards .card .user {
+  font-weight: 600;
+}
+
+.section-a .first-col .con-cards .card .user .user-name {
+  color: #333;
+}
+
+.section-a .first-col .con-cards .card .user .user-role {
+  color: var(--ash-02-color);
+}
+
+.section-a .first-col .con-cards .card .btn:first-child {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.section-a .first-col .con-cards .card .btn:nth-child(2) {
+  border: 1px solid;
+  font-weight: 500;
+  padding: 4px 8px;
+  color: var(--primary-color);
+}
+
+.section-a .first-col .con-cards .card {
+  border: 0;
+}
+
+
+/* First Row */
+.section-a .first-col .first-row .shadow{
+  background: rgb(253, 255, 220);
+}
+
+.section-a .first-col .first-row p {
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+.section-a .first-col .first-row p:nth-child(3),
+.section-a .first-col .first-row .header .timestamp {
+  font-weight: 500;
+  color: rgb(117, 117, 117);
+}
+
+.section-a .first-col .first-row .header {
+  margin: 0 0 1rem 0;
+}
+
+.section-a .first-col .first-row .header .title {
+  color: var(--secondary-color);
+  font-weight: 500;
+}
+
+.section-a .first-col .first-row .header .timestamp {
+  font-size: .8rem;
+}
+
+.section-a .first-col .first-row .header .timestamp i {
+  color: var(--primary-color);
+}
+
+.section-a .first-col .first-row .btn {
+  background: var(--primary-color);
+  color: #fff;
+  font-size: .7rem;
+  border-radius: .5rem;
+  width: 140px;
+}
+
+
+/* Second Row */
+
+.section-a .first-col .second-row .con-cards .card p {
+  margin-bottom: .5rem;
+}
+
+.section-a .first-col .second-row .con-cards .card .meet .meet-info p:first-child,
+.section-a .first-col .second-row .con-cards .card .meet .meet-link p:first-child {
+  color: var(--ash-02-color);
+  font-size: .7rem;
+}
+
+.section-a .first-col .second-row .con-cards .card .meet .meet-info p:nth-child(2) {
+  font-size: .76rem;
+  font-weight: 500;
+}
+
+.section-a .first-col .second-row .con-cards .card .meet .meet-link p:nth-child(2) {
+  font-weight: 500;
+}
+
+.section-a .first-col .second-row .con-cards .card .user .user-role {
+  font-size: .7rem;
+}
+
+.section-a .first-col .second-row .con-cards .card .user .user-active {
+  color: var(--primary-color);
+  font-size: .7rem;
+}
+
+.section-a .first-col .second-row .con-cards .card .meet-link .btn {
+  font-size: .6rem;
+  background: var(--secondary-color);
+  color: #fff;
+  padding: 0 10px 1px 10px;
+}
+
+/* Third Row */
+.section-a .first-col .third-row .card .user .user-role {
+  font-size: .7rem;
+}
+
+.section-a .first-col .third-row .card .con-body {
+  color: var(--ash-02-color);
+  font-weight: 500;
+}
+
+.section-a .first-col .third-row .card .con-body .action .fa-heart {
+  color: red;
+}
+
+/* Forth Row */
+.section-a .first-col .fourth-row .card .con-body {
+  font-weight: 500;
+}
+
+.section-a .first-col .fourth-row .card .con-body p:first-child {
+  margin-bottom: 10px;
+}
+
+.section-a .first-col .fourth-row .card .con-body .timestamp p {
+  margin: 0 4px;
+  color: var(--ash-02-color);
+  font-size: .7rem;
+}
+
+
+/* Second Column */
+.section-a .second-col .con-card .name {
+  color: var(--secondary-color);
+}
+
+.section-a .second-col .con-card .role {
+  font-size: .69rem;
+  color: rgb(117, 117, 117);
+}
+
+.section-a .second-col .header {
+  font-weight: 500;
+  font-size: .92rem;
+  color: rgb(90, 90, 90);
+}
+
+.section-a .second-col  .con-card {
+  color: var(--primary-color);
+  font-size: .8rem;
+  font-weight: 500;
+  width: 90%;
+}
+
+
+/* First Row */
+.section-a .second-col .first-row .con-card .img {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  color: var(--primary-color);
+  background: rgb(231, 230, 230);
+}
+
+
+/* Second Row */
+.section-a .second-col .second-row {
+  height: 300px;
+}
+
+.section-a .second-col .second-row .cards {
+  height: 220px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.section-a .second-col .second-row .cards::-webkit-scrollbar {
+  height: 0;
+}
+
