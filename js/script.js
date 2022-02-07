@@ -1,10 +1,13 @@
 $(function(){
   const owl = $('.owl-carousel');
   owl.owlCarousel({
-    items: 2,
     loop: true,
     autoplay: true,
     autoplayTimeout: 4000,
-    autoplayHoverPause: true
+    autoplayHoverPause: true,
+    768 : {
+      items : 2.5,
+      // option2 : value,
+  }
   });
 });
