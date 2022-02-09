@@ -1,0 +1,84 @@
+p {
+  margin: 0;
+}
+
+.main-row {
+  height: 100vh;
+}
+
+
+/* First Column */
+.first-col .first-row {
+  max-width: 380px;
+  width: 94%;
+}
+
+.first-col .first-row .header h2{
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.first-col .first-row .header p {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.first-col .first-row .form .inputs input {
+  border: 1px solid rgb(109, 108, 108);
+  padding: 8px 20px 12px 20px;
+  border-radius: .4rem;
+  font-size: .89rem;
+  margin-bottom: 20px;
+}
+
+.first-col .first-row .form .buttons .btn {
+  width: 100%;
+  font-size: .8rem;
+  font-weight: 500;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: .5rem;
+}
+
+.first-col .first-row .form .buttons .default {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.first-col .first-row .form .buttons a {
+  width: 100%;
+}
+
+.first-col .first-row .form .buttons p {
+  color: #888;
+  margin-bottom: .4rem;
+}
+
+.first-col .first-row .form .buttons .google {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);;
+}
+
+/* Second Column */
+.second-col {
+  background: var(--primary-color);
+}
+
+.second-col .first-row .buttons .btn {
+  border: 1px solid #fff;
+  font-size: .8rem;
+  font-weight: 500;
+  margin-left: 12px;
+  padding: 4px 16px 7px 16px;
+  border-radius: .5rem;
+}
+
+.second-col .first-row .buttons .btn:first-child {
+  color: #fff;
+}
+
+.second-col .first-row .buttons .btn:nth-child(2) {
+  background: #fff;
+  color: var(--primary-color);
+}
