@@ -65,11 +65,11 @@
 /* Sidebar */
 .con-content .row .side {
   height: 100vh;
-  background: #fff;
   transition: width .25s;
 }
 
 .con-content .row .side:hover {
+  background: #fff;
   width: 20%;
   z-index: 100000;
 }

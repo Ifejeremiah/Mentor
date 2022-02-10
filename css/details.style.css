@@ -1,0 +1,110 @@
+/* First Column */
+
+/* First Row */
+.section-a .first-col .first-row .shadow {
+  background: transparent;
+}
+
+.section-a .first-col .first-row .header {
+  background: var(--primary-color);
+  border-radius: .6rem .6rem 0 0;
+  height: 80px;
+  color: #fff;
+  margin: 0;
+}
+
+.section-a .first-col .first-row .header .back a {
+  font-size: .8rem;
+  color: #fff;
+}
+
+.section-a .first-col .first-row .user-dp {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--ash-03-color);
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 45px;
+  right: 0;
+}
+
+.section-a .first-col .first-row .body {
+  color: var(--ash-01-color);
+}
+
+.section-a .first-col .first-row .body h1{
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+}
+
+.section-a .first-col .first-row .body h2 {
+  font-size: 1rem;
+  color: var(--ash-01-color);
+}
+
+.section-a .first-col .first-row .body p.first i {
+  color: var(--primary-color);
+}
+
+.section-a .first-col .first-row .btn {
+  font-size: .7rem;
+  font-weight: 500;
+  width: unset;
+  padding: 6px 16px;
+}
+
+.section-a .first-col .first-row .card {
+  border: 0;
+}
+
+.section-a .first-col .first-row .card h1 {
+  color: var(--secondary-color);
+}
+
+.section-a .first-col .first-row .card p:first-child {
+  color: var(--ash-01-color);
+  margin-bottom: 0;
+}
+
+.section-a .first-col .first-row .card p:nth-child(4) {
+  color: var(--primary-color);
+}
+
+
+/* Second Row */
+.nav-tabs .nav-link {
+  background: transparent;
+  color: var(--ash-01-color);
+  font-size: .8rem;
+  margin: 0 4px;
+  width: 100px;
+  font-weight: 500;
+  border-radius: .8rem .8rem 0 0 !important;
+  box-shadow: 0 .1rem 1.2rem rgba(0, 0, 0, 0.084)!important;
+}
+
+.nav-tabs .nav-link.active {
+  background: var(--primary-color);
+  border-color: transparent;
+  color: #fff;
+}
+
+.second-row .header {
+  color: var(--ash-01-color);
+}
+
+.second-row .tab-content .tab-pane .body p {
+  color: var(--ash-01-color);
+  font-size: .86rem;
+}
+
+.second-row .tab-content .tab-pane .con-button .btn {
+  font-size: .7rem;
+  font-weight: 500;
+  padding: 6px 18px;
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 0.5rem;
+}

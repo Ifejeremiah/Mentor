@@ -13,7 +13,9 @@
 :root {
   --primary-color: rgb(20, 117, 197);
   --secondary-color: rgb(3, 136, 3);
+  --ash-01-color: rgb(92, 91, 91);
   --ash-02-color: rgb(163, 161, 161);
+  --ash-03-color: rgb(231, 230, 230);
 }
 
 body {
