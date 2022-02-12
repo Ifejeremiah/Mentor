@@ -62,7 +62,7 @@ p {
 
 /* Second Column */
 .second-col {
-  background: var(--primary-color);
+  background: url('/img/finelady.png') no-repeat center center/cover;
 }
 
 .second-col .first-row .buttons .btn {

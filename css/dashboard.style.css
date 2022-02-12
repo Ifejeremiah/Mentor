@@ -9,14 +9,6 @@
   z-index: 1000;
 }
 
-.con-main-navbar .profile {
-  border-radius: 50%;
-  height: 30px;
-  width: 30px;
-  color: var(--primary-color);
-  background: rgb(231, 230, 230);
-}
-
 .con-main-navbar input {
   background: rgb(241, 240, 240);
   font-size: .8rem;
@@ -370,8 +362,8 @@
 /* First Row */
 .section-a .second-col .first-row .con-card .img {
   border-radius: 50%;
-  height: 25px;
-  width: 25px;
+  height: 40px;
+  width: 40px;
   color: var(--primary-color);
   background: rgb(231, 230, 230);
 }
@@ -391,8 +383,9 @@
 
 
 .section-a .second-col .second-row .cards .con-card .checkbox {
-  height: 20px;
-  width: 20px;
+  height: 14px;
+  width: 14px;
   border-radius: .25rem;
   background: rgb(235, 234, 234);
 }
+
