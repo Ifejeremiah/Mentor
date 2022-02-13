@@ -8,6 +8,33 @@
   .con-content {
     margin: 70px 0;
   }
+
+  .nav.nav-tabs {
+    border: 0;
+    flex-wrap: nowrap;
+  }
+
+  .con-pills-nav {
+    overflow-x: auto;
+  }
+
+  .con-pills-nav::-webkit-scrollbar {
+    height: 0;
+  }
+
+  .section-a .first-col .second-row .card .con-button a,
+  .section-a .first-col .second-row .con-cards .card .btn,
+  .section-a .first-col .third-row .con-cards .card .btn,
+  .section-a .first-col .fourth-row .con-cards .card .btn {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: .8rem;
+  }
+
+  .section-a .first-col .con-cards .card .btn:nth-child(2) {
+    margin-left: 10px;
+  }
+
 }
 
 
@@ -39,11 +66,22 @@
 
 
 /* 1200px and above */
-@media (min-width: 1300px){  
+@media (min-width: 1000px){  
   
   /* Second Column */
+  
   .section-a .second-col .con-rows {
+    padding-bottom: 100px;
+  }
+  
+  .section-a .second-col .fixed {
     position: fixed;
-    width: 26%;
+    width: 28%;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .section-a .second-col .fixed::-webkit-scrollbar {
+    width: 0;
   }
 }

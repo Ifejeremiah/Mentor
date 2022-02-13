@@ -61,8 +61,8 @@
 }
 
 .con-content .row .side:hover {
-  background: #fff;
-  width: 20%;
+  background: #fffffff0;
+  width: 14%;
   z-index: 100000;
 }
 
@@ -336,6 +336,7 @@
 
 
 /* Second Column */
+
 .section-a .second-col .con-card .name {
   color: var(--secondary-color);
 }
