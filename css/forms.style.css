@@ -1,0 +1,31 @@
+.forms {
+  margin-bottom: 40px;
+  padding: 40px 20px;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.089);
+}
+
+#text-01 {
+  font-size: .76rem;
+  color: rgb(141, 141, 141);
+}
+
+button#text-01 {
+  color: #fff;
+}
+
+.form-control {
+  font-size: 1rem;
+  border-radius: .5rem;
+}
+
+
+@media (min-width:800px) {
+  .form-control {
+    font-size: .8rem;
+  }
+
+  .form-select {
+    font-size: .76rem;
+  }
+}
