@@ -116,7 +116,7 @@
 .con-context .row-first {
   width: 90%;
   background: #fff;
-  z-index: 10000;
+  z-index: 1000;
 }
 
 .con-context .con-navbar {

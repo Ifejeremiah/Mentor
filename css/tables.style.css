@@ -1,0 +1,17 @@
+
+.con-table .table,
+.con-table .con-add {
+  color: rgb(90, 90, 90);
+}
+
+.con-table .con-add i,
+.con-table .table tbody i {
+  color: var(--primary-color);
+}
+
+.con-table .con-add h4 {
+  font-weight: 700;
+  font-size: .98rem;
+  margin-bottom: 0;
+  padding: 0 8px;
+}

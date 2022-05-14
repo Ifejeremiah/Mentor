@@ -1,0 +1,12 @@
+.section-a .first-col .first-row .btn {
+  background: var(--primary-color);
+  color: #fff;
+  font-size: .98rem;
+  border-radius: .5rem;
+  padding: 6px 24px;
+  width: unset;
+}
+
+.con-modal .modal-header {
+  color: var(--primary-color);
+}
